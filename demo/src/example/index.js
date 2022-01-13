@@ -39,7 +39,7 @@ const Bar = styled.div`
   }
 `;
 
-const Example = (props) => {
+const Example = () => {
   const emailEditorRef = useRef(null);
 
   const saveDesign = () => {
