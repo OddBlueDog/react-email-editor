@@ -1,7 +1,6 @@
-import React, { Component, useRef } from 'react';
+import React, { useRef } from 'react';
 import styled from 'styled-components';
-
-import { Switch, Route, Link, useRouteMatch } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import EmailEditor from '../../../src';
 
