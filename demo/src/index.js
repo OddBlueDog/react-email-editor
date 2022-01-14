@@ -26,7 +26,7 @@ class Demo extends Component {
         <GlobalStyle />
         <Routes>
           <Route path={`/`} exact={true} element={<Example />} />
-          <Route path={`/dashboard`} element={<Dashboard />} />
+          <Route path={`/dashboard/*`} element={<Dashboard />} />
         </Routes>
       </Router>
     );
