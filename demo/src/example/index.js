@@ -18,13 +18,11 @@ const Bar = styled.div`
   padding: 10px;
   display: flex;
   max-height: 40px;
-
   h1 {
     flex: 1;
     font-size: 16px;
     text-align: left;
   }
-
   button {
     flex: 1;
     padding: 10px;
@@ -39,7 +37,7 @@ const Bar = styled.div`
   }
 `;
 
-const Example = () => {
+const Example = (props) => {
   const emailEditorRef = useRef(null);
 
   const saveDesign = () => {

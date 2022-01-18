@@ -1,12 +1,16 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { Component } from 'react';
+import styled from 'styled-components';
 
-const DesignList = () => {
+import { Switch, Route, Link, useRouteMatch } from 'react-router-dom';
+
+const DesignList = (props) => {
+  const match = useRouteMatch();
 
   return (
     <div>
       <h1>My Designs</h1>
-      <p><Link to={`new`}>New Design</Link></p>
+
+      <p><Link to={`${match.url}/new`}>New Design</Link></p>
     </div>
   );
 };
