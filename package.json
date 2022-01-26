@@ -1,7 +1,7 @@
 {
-  "name": "react-email-editor",
+  "name": "@oddbluedog/react-email-editor",
   "version": "1.5.0",
-  "description": "Unlayer's Email Editor Component for React.js",
+  "description": "Unlayer's Email Editor Component for React.js. Changed file extensions to .jsx to work with vite. Supports react 17.",
   "main": "src/index.jsx",
   "files": [
     "css",
@@ -18,7 +18,6 @@
     "test:watch": "nwb test-react --server",
     "release": "npm run build && npm publish"
   },
-  "dependencies": {},
   "peerDependencies": {
     "react": "15.x || 16.x || 17.x"
   },
@@ -32,8 +31,17 @@
   "author": "",
   "homepage": "https://github.com/unlayer/react-email-editor#readme",
   "license": "MIT",
-  "repository": "https://github.com/unlayer/react-email-editor.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unlayer/react-email-editor.git"
+  },
   "keywords": [
     "react-component"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/unlayer/react-email-editor/issues"
+  },
+  "directories": {
+    "test": "tests"
+  }
 }
